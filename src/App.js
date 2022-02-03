@@ -16,7 +16,7 @@ import RotateLeft from '@material-ui/icons/RotateLeft';
 
 // Styles
 import './styles/RiseUpText/RiseUpText.css';
-import { riseText } from './styles/RiseUpText/RiseUpText';
+import { heading } from './styles/RiseUpText/RiseUpText';
 import './App.css';
 
 class App extends Component {
@@ -41,7 +41,7 @@ class App extends Component {
 	};
 
 	componentDidMount() {
-		window.addEventListener('load', riseText);
+		window.addEventListener('load', heading);
 		this.generateBars();
 	}
 
@@ -200,7 +200,7 @@ class App extends Component {
 			<div className='app' >
 			    <div className="header">
 			    <img alt="logo" src={logo} style={logoStyle}/>
-				<h2 className='page-header_title risetext'>
+				<h2 className='page-header_title heading'>
 					<span className='page-header_title-main enclose'>
 						ALGOBLOCKS
 					</span>

@@ -2,20 +2,20 @@ body {
 	background: #1d1d1d;
 }
 
-.risetext {
+.heading {
 	text-align: center;
 	color: white;
 	left: 25%;
 	font: 780 5em 'Helvetica Neue', sans-serif;
 	text-transform: uppercase;
 }
-.risetext .letter {
+.heading .letter {
 	display: inline-block;
 	transform: translateY(100%);
 	transition-duration: 600ms;
 	opacity: 0.4;
 }
-.risetext .word {
+.heading .word {
 	display: inline-block;
 	overflow: hidden;
 	transform: translateY(30%);
@@ -23,10 +23,10 @@ body {
 	transition-timing-function: ease;
 	transition-property: all;
 }
-.risetext.show .enclose {
+.heading.show .enclose {
 	transform: translateY(0%);
 }
-.risetext.show .letter {
+.heading.show .letter {
 	transform: translateY(0%);
 	opacity: 1;
 }

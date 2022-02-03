@@ -1,6 +1,6 @@
-export const riseText = (e) => {
-	const risetext = document.querySelector('.risetext');
-	console.log(risetext);
+export const heading = (e) => {
+	const heading = document.querySelector('.heading');
+	console.log(heading);
 	const enclose = document.querySelector('.page-header_title-main');
 	console.log(enclose);
 	const encloseText = Array.from(enclose.innerText.split(''));
@@ -27,7 +27,7 @@ export const riseText = (e) => {
 
 	function timeout() {
 		setTimeout(function () {
-			risetext.classList.toggle('show');
+			heading.classList.toggle('show');
 			//timeout();
 		}, 500);
 	}
