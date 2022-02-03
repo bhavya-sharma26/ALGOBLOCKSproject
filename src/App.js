@@ -15,8 +15,8 @@ import Play from '@material-ui/icons/PlayCircleOutlineRounded';
 import RotateLeft from '@material-ui/icons/RotateLeft';
 
 // Styles
-import './styles/RiseUpText/RiseUpText.css';
-import { heading } from './styles/RiseUpText/RiseUpText';
+import './styles/heading.css';
+import { heading } from './styles/heading.js';
 import './App.css';
 
 class App extends Component {
